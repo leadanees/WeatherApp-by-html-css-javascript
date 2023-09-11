@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER WEP APPLICATION</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER APP</h1>
+        <div>
+            <input type="text" id="input" placeholder="Enter city name....">
+            <button id="search">Search</button>
+        </div>
+    </div>
+    <main>
+        <div class="weather">
+            <h2 id="city">Delhi, IN</h2>
+            <div class="temp-box">
+                <img src="./weathericon.jpg" alt="" id="img">
+                <p id="temperature">26  °C</p>
+            </div>
+            <span id="clouds">Broken clouds</span>
+        </div>
+        <div class="divider1"></div>
+        <div class="forcastH">
+            <p class="cast-header">Upcoming forcast</p>
+            <div class="templist">
+                <div class="next">
+                    <div>
+                        <p class="time">8:20 pm</p>
+                        <p>29 °C / 26 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">9:10 pm</p>
+                        <p>23 °C / 24 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">1:30 am</p>
+                        <p>15 °C / 10 °C</p>
+                    </div>
+                    <p class="desc">Heavely Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">6:20 am</p>
+                        <p>15 °C / 12 °C</p>
+                    </div>
+                    <p class="desc">Moderate Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">8:20 am</p>
+                        <p>25 °C / 16 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div> 
+            </div>
+        </div>
+    </main>
+
+    <div class="forecstD">
+        <div class="divider2"></div>
+        <p class="cast-header">Next 5 Days Forecast</p>
+        <div class="weekF">
+            <div class="dayF">
+                <p class="date">Sun June 18 2023</p>
+                <p>30 °C / 22 °C</p>
+                <p class="desc">Overcast cloud</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun June 18 2023</p>
+                <p>30 °C / 22 °C</p>
+                <p class="desc">Overcast cloud</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun June 18 2023</p>
+                <p>30 °C / 22 °C</p>
+                <p class="desc">Overcast cloud</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun June 18 2023</p>
+                <p>30 °C / 22 °C</p>
+                <p class="desc">Overcast cloud</p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="weather.js" type="module"></script>
+</body>
+</html>
